@@ -32,6 +32,7 @@ public class StudentController {
 		theStudents.add(new Student("Nimish","Tuteja"));
 		theStudents.add(new Student("Nimish","Tuteja"));
 		theStudents.add(new Student("abc","def"));
+		theStudents.add(new Student("abc","def"));
 	}
 	
 	@GetMapping("/students")
